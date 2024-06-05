@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:recipes/building_blocks",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:tube_coral_crafting"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"minecraft:corals/tube"
+		]
+	}
+}
